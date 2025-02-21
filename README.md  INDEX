@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="welocome user">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage API Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Web Storage API Example</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Store Your Data</h2>
+            <input type="text" id="username" placeholder="Enter some data">
+            <button id="savename">Save to Local Storage</button>use="displayname"
+            <button id="clearname">Load from Local Storage</button>use id="displayname"
+            
+            <p id="output"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Web Design Class</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+Scripts
+document.getElementById('saveButton').addEventListener('click', function() {
+    const data = document.getElementById('dataInput').value;
+    localStorage.setItem('userData', data);
+    document.getElementById('output').innerText = 'Data saved to local storage!';
+});
+
+document.getElementById('loadButton').addEventListener('click', function() {
+    const storedData = localStorage.getItem('userData');
+    if (storedData) {
+        document.getElementById('output').innerText = 'Loaded data: ' + storedData;
+    } else {
+        document.getElementById('output').innerText = 'No data found in local storage.';
+    }
+});
+
+document.getElementById('clearButton').addEventListener('click', function() {
+    localStorage.removeItem('userData');
+    document.getElementById('output').innerText = 'Local storage cleared!';
+});

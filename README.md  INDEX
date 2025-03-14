@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Web Storage API Example</h1>
+        <h1></h1>
     </header>
 
     <main>
@@ -23,9 +23,10 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Web Design Class</p>
+        <p>; 2025 Web Design Class</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
